@@ -10895,3 +10895,12 @@ html {
 
 /* pop message */
 
+
+
+/* For members */
+/* Member image hover effect */
+.rounded-circle.mb-2.border:hover {
+    box-shadow: 0 0 0 4px #0d6efd33, 0 2px 8px rgba(0,0,0,0.15);
+    transform: scale(1.1);
+    transition: box-shadow 0.2s, transform 0.2s;
+}
