@@ -10893,8 +10893,6 @@ html {
   }
 }
 
-/* pop message */
-
 
 
 /* For members */
@@ -10903,4 +10901,18 @@ html {
     box-shadow: 0 0 0 4px #0d6efd33, 0 2px 8px rgba(0,0,0,0.15);
     transform: scale(1.1);
     transition: box-shadow 0.2s, transform 0.2s;
+}
+
+/* Make construction popup modal smaller on mobile */
+@media (max-width: 575.98px) {
+  #constructionPopup .modal-content {
+    max-width: 85vw;
+    padding: 0.5rem 0.5rem;
+    font-size: 0.95rem;
+  }
+  #constructionPopup .modal-header,
+  #constructionPopup .modal-body {
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+  }
 }
